@@ -1,0 +1,32 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    direction: rtl;
+    background-color: #f8fafc;
+}
+
+@media print {
+    body * {
+        visibility: visible !important;
+    }
+    .print\:hidden {
+        display: none !important;
+    }
+}
+
+.intro-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.intro-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resource-map {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
